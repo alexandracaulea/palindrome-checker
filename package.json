@@ -1,0 +1,32 @@
+{
+  "name": "palindrome-checker",
+  "version": "1.0.0",
+  "description": "Palindrome checker",
+  "main": "index.js",
+  "author": "Alexandra Caulea <alexandra.caulea@gmail.com>",
+  "homepage": "https://alexandracaulea.github.io/palindrome-checker",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.10.2",
+    "@babel/plugin-transform-runtime": "^7.10.1",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "gh-pages": "^3.0.0",
+    "jest": "^26.0.1",
+    "parcel-bundler": "^1.12.4",
+    "puppeteer": "^3.3.0",
+    "rimraf": "^3.0.2"
+  },
+  "jest": {
+    "verbose": true,
+    "testURL": "http://localhost:1234/"
+  },
+  "scripts": {
+    "dev": "npm run clean && parcel public/index.html --out-dir development",
+    "build": "rimraf ./dist && rimraf ./.cache/ && parcel build public/index.html --out-dir dist --public-url ./",
+    "deploy": "gh-pages -d dist",
+    "clean": "rimraf ./development/ && rimraf ./.cache/",
+    "test": "jest",
+    "testWatch": "jest --watchAll --runInBand --detectOpenHandles"
+  }
+}
