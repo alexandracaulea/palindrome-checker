@@ -5,3 +5,5 @@ While going through the JavaScript Algorithms and Data Structures Certification 
 I've decided to take this challenge a bit further and implement an UI for it and dive more into testing.
 
 For unit testing I've used Jest and for end to end testing I've used Puppeteer. This is my first time testing my own code and also the first time using Jest and Puppeteer in a project.
+
+![Palindrome Checker Gif](palindrome-checker.gif)
