@@ -4,8 +4,15 @@
   "description": "Palindrome checker",
   "main": "index.js",
   "author": "Alexandra Caulea <alexandra.caulea@gmail.com>",
-  "homepage": "https://alexandracaulea.github.io/palindrome-checker",
   "license": "MIT",
+  "homepage": "https://alexandracaulea.github.io/palindrome-checker",
+  "repository": {
+    "type": "git",
+    "url": "git+https://alexandracaulea.github.io/palindrome-checker"
+  },
+  "bugs": {
+    "url": "https://alexandracaulea.github.io/palindrome-checker"
+  },
   "devDependencies": {
     "@babel/core": "^7.10.2",
     "@babel/plugin-transform-runtime": "^7.10.1",
