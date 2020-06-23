@@ -14,6 +14,8 @@ For unit testing I've used [Jest](https://jestjs.io/) and for end to end testing
 ## Using this repository
 
 1. For the development run: `npm run dev`
-2. To build run `npm run build`
+2. To build run: `npm run build`
+3. To run tests: `npm run test`
+4. To watch the tests: `npm run testWatch`
 
 ![Palindrome Checker Gif](palindrome-checker.gif)
