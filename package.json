@@ -28,7 +28,11 @@
     "verbose": true,
     "testURL": "http://localhost:1234/"
   },
+  "resolutions": {
+    "node-forge": "0.10.0"
+  },
   "scripts": {
+    "preinstall": "npx npm-force-resolutions",
     "dev": "npm run clean && parcel public/index.html --out-dir development",
     "build": "rimraf ./dist && rimraf ./.cache/ && parcel build public/index.html --out-dir dist --public-url ./",
     "deploy": "gh-pages -d dist",
