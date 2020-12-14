@@ -8,7 +8,7 @@ For unit testing I've used [Jest](https://jestjs.io/) and for end to end testing
 
 ## Installation
 
-1. Clone the repository: `git clone https://alexandracaulea.github.io/palindrome-checker`
+1. Clone the repository: `git clone https://github.com/alexandracaulea/palindrome-checker`
 2. Install project dependencies by running: `npm install`
 
 ## Using this repository
